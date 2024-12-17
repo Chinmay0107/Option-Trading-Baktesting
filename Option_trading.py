@@ -334,11 +334,7 @@ def create_interactive_payoff_chart(stock_prices, payoff, strategy_name, break_e
     )
     return fig
 
-
-# Streamlit App
 st.set_page_config(page_title="Options Trading Strategy Backtester", layout="wide")
-
-# Force Dark Theme using Custom CSS
 st.markdown(
     """
     <style>
